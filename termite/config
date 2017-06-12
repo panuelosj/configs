@@ -1,0 +1,136 @@
+[options]
+allow_bold = true
+#audible_bell = false
+#clickable_url = true
+#dynamic_title = true
+font = Liberation Mono 6
+export TERM = rxvt-unicode
+#fullscreen = true
+#geometry = 640x480
+#icon_name = terminal
+#mouse_autohide = false
+#scroll_on_output = false
+#scroll_on_keystroke = true
+scrollback_lines = 10000
+#search_wrap = true
+#urgent_on_bell = true
+
+# $BROWSER is used by default if set, with xdg-open as a fallback
+#browser = xdg-open
+
+# "system", "on" or "off"
+#cursor_blink = system
+
+# "block", "underline" or "ibeam"
+#cursor_shape = block
+
+# Hide links that are no longer valid in url select overlay mode
+#filter_unmatched_urls = true
+
+# Emit escape sequences for extra modified keys
+#modify_other_keys = false
+
+# set size hints for the window
+#size_hints = false
+
+[colors]
+# If both of these are unset, cursor falls back to the foreground color,
+# and cursor_foreground falls back to the background color.
+#cursor = #dcdccc
+#cursor_foreground = #dcdccc
+
+foreground = rgba(255,255,255,100)
+foreground_bold = rgba(255,255,255,100)
+#background = rgba(13,48,58,100)
+background = #1D192C
+
+# 20% background transparency (requires a compositor)
+#background = rgba(63, 63, 63, 0.8)
+
+# If unset, will reverse foreground and background
+highlight = #2f2f2f
+
+# Colors from color0 to color254 can be set
+color0 = #3f3f3f
+color1 = #705050
+color2 = #60b48a
+color3 = #dfaf8f
+color4 = #506070
+color5 = #dc8cc3
+color6 = #8cd0d3
+color7 = #dcdccc
+color8 = #709080
+color9 = #dca3a3
+# Rainbow
+color10 = #c3bf9f
+color11 = #f0dfaf
+color12 = #94bff3
+color13 = #ec93d3
+color14 = #93e0e3
+color15 = #ffffff
+
+color50 = #4040ff
+color51 = #2c56fc
+color52 = #2a59fc
+color53 = #1180ed
+color54 = #04a6d5
+color55 = #02abd1
+color56 = #03d2aa
+color57 = #04d6a5
+color58 = #12ee7f
+color59 = #2bfc58
+color60 = #2dfc55
+color61 = #56fc2d
+color62 = #59fc2a
+color63 = #80ed11
+color64 = #a6d503
+color65 = #abd103
+color66 = #d2aa03
+color67 = #d6a504
+color68 = #ee7f12
+color69 = #fc582b
+color70 = #fc552d
+color71 = #fc2c56
+color72 = #fc2a58
+color73 = #ed1180
+color74 = #d503a6
+color75 = #d102ab
+color76 = #aa03d2
+color77 = #a504d6
+color78 = #7f12ee
+color79 = #582bfc
+color80 = #552dfc
+# PurpleGreen
+color20 = #5C5D67
+color21 = #6E6977
+color22 = #817486
+color23 = #938096
+color24 = #A68BA5
+color25 = #B097B5
+color26 = #BBA4C4
+color27 = #C6B0D4
+color28 = #D1BCE3
+color29 = #CDCBDF
+color30 = #C9DADA
+color31 = #C4E9D6
+color32 = #C0F8D1
+color33 = #C9FAD2
+color34 = #D3FCD4
+color35 = #DCFDD5
+color36 = #E5FFD6
+color37 = #EAFFDE
+color38 = #F0FFE7
+color39 = #F5FFEF
+
+[hints]
+#font = Monospace 12
+#foreground = #dcdccc
+#background = #3f3f3f
+#active_foreground = #e68080
+#active_background = #3f3f3f
+#padding = 2
+#border = #3f3f3f
+#border_width = 0.5
+#roundness = 2.0
+
+# vim: ft=dosini cms=#%s
